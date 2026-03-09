@@ -26,6 +26,7 @@ def adaugare_produse(cant_comanda , stoc , index , cantitate):
 
 def eliminare_produs(cant_comanda  , index , cantitate):
     if 0 <= index < len(cant_comanda):
+
         if cantitate > 0:
             if cantitatea <= cant_comanda[index]:
                 cant_comanda[index] -= cantitate
